@@ -25,16 +25,16 @@
 */
 
 $db['conn'] = array(
-	'hostname' 		=> '10.164.30.173',
-	'database' 		=> 'osrms',
+	'hostname' 		=> 'localhost',
+	'database' 		=> 'test',
 	'username'		=> 'postgres',
-	'password'		=> '@ssy3#',
+	'password'		=> 'admin',
 	'charset' 		=> 'utf8',
 	'dbdriver'		=> 'pgsql'
 );
 
 $db['conn2'] = array(
-	'hostname' 		=> '10.164.30.173',
+	'hostname' 		=> 'localhost',
 	'database' 		=> 'test',
 	'username'		=> 'root',
 	'password'		=> 'superkey',
